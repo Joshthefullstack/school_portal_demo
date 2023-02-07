@@ -1,0 +1,75 @@
+
+.outer_block {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container{
+  width: 100%;
+  margin-left: 1.5em;
+}
+
+
+.flex_tbody{
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.grid_thead{
+  background-color: darkgrey;
+  padding: .5em;
+  font-size: 1.2rem;
+  
+}
+
+.item_data{
+  padding: .5em;
+
+}
+
+
+table{
+  padding: 0;
+  overflow-x: auto;
+
+}
+
+.testing:nth-child(odd){
+  background-color: darkgrey;
+  color: #000;
+}
+/* 
+.flex_select{
+  display: grid;
+  grid-auto-flow: column;
+  gap: .5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+} */
+
+.add_btn{
+  background-color: rgb(21, 21, 223);
+  padding: .2em .5em;
+  font-size: 1rem;
+}
+
+.add_btn:hover{
+  background-color: rgb(16, 16, 171);
+}
+
+.select_course{
+  padding: 0;
+  font-size: 1rem;
+  width: 32%;
+  margin-right: 1.5em;
+}
+
+.submit_btn{
+  background-color: rgb(21, 21, 223);
+  padding: .4em .8em;
+  font-size: 1rem;
+}
+
+.submit_btn:hover{
+  background-color: rgb(16, 16, 171);
+}

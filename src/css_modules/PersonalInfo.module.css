@@ -1,0 +1,45 @@
+.outer_block{
+    display: flex;
+    align-items: flex-start;
+}
+
+.double_div{
+    display: flex;
+    /* gap: 3em; */
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-bottom: 1.4em;
+    margin-top: 1em;
+}
+
+.each_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+    /* margin-bottom: 1em; */
+    /* border: 1px solid red; */
+}
+
+.each_div input, select{
+    font-size: 1rem;
+}
+
+.para_style{
+    font-size: 1.8rem;
+    background-color: rgb(25, 9, 103);
+    padding: .2em;
+    color: white;
+}
+
+.button_style{
+    position: relative;
+    min-width: 48px;
+}
+
+.error_message{
+    background-color: lightcoral;
+    color: white;
+    font-size: 1.1rem;
+}

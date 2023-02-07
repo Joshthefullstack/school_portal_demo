@@ -1,0 +1,37 @@
+.containers{
+    background-image: linear-gradient(to top, #100433, #110d5d, #12108a, #130fb9, #1908ea);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.main{
+    border: 5px solid white;
+    padding: 3em;
+    border-radius: 1em;
+}
+
+.main_label{
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    margin-bottom: 1em;
+}
+
+.flex_main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.btn{
+    position: relative;
+    left: 18em;
+
+}

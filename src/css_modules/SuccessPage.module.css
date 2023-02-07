@@ -1,0 +1,10 @@
+.outer_block {
+    display: flex;
+    align-items: flex-start;
+
+  }
+
+  .print_btn{
+    padding: .5em 1em;
+    
+  }

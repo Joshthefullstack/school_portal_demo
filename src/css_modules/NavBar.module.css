@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(25, 9, 103);
+    align-items: center;
+    padding: 1em;
+}
+
+.container img{
+    width: 6%;
+}
+
+.container_link{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins';
+    background-color: #E20512;
+    padding: .5em .8em;
+    border-radius: 20px;
+}
+
+.text{
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.modal{
+    border: none;
+    padding: 2em;
+    max-width: 50ch;
+}
+
+.modal::backdrop{
+    background: black;
+    opacity: .5;
+}
+
+.logOut{
+    margin-right: 1em;
+    padding: .4em .8rem;
+    font-size: 1rem;
+}

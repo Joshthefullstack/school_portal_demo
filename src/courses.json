@@ -1,0 +1,30 @@
+[
+  [
+    {
+        "courseCode": ["ACC111", "MKT102", "BUS121", "FBA110", "IRP110"],
+        "courseTitle": [
+          "Introduction to Accounting (Compulsory)",
+          "Introduction to Marketing (Compulsory)",
+          "Introduction to Business Mathematics (Compulsory)",
+          "Intoduction to Business (Compulsory)",
+          "Elements of Human Relations (Compulsory)"
+        ],
+        "courseUnit": [2, 2, 2, 2, 2],
+        "id": [1, 2, 3, 4, 5]
+      }
+],
+[
+  {
+    "courseCode": ["SOC111", "PSY111", "POL101", "FSC101", "GST101"],
+    "courseTitle": [
+      "Introduction to Sociology (Compulsory)",
+      "Introduction to Psychology (Compulsory)",
+      "Introduction to Politics (Compulsory)",
+      "Computer Science (Compulsory)",
+      "Introduction to Cutlure and Africa Policy (Compulsory)"
+    ],
+    "courseUnit": [2, 3, 2, 3, 2],
+    "id": [1, 2, 3, 4, 5]
+  }
+]
+]

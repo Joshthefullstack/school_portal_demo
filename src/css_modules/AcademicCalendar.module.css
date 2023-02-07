@@ -1,0 +1,53 @@
+.outer_block {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+}
+
+input,
+select,
+button {
+  font-family: "Poppins";
+  font-size: 1.1rem;
+  border-radius: 5px;
+  /* padding: 0.3em; */
+}
+
+.each_div {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.3em;
+  margin-bottom: 1.6em;
+}
+
+.each_div label {
+  font-size: 1.1rem;
+}
+
+button {
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  padding: 0.6em;
+  cursor: pointer;
+  position: relative;
+}
+
+button:hover {
+  background-color: rgb(90, 18, 157);
+  transition: all 50ms ease-in-out;
+}
+
+.error_message {
+  font-size: 1.1rem;
+  margin-bottom: 1.6em;
+  background-color: #FA6E5F;
+  color: white;
+}

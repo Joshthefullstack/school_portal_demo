@@ -1,0 +1,28 @@
+.flex_tbody{
+    display: grid;
+    grid-auto-flow: column;
+  }
+  
+  .grid_thead{
+    background-color: darkgrey;
+    padding: .5em;
+    font-size: 1.2rem;
+    
+  }
+  
+  .item_data{
+    padding: .5em;
+  
+  }
+  
+  
+  table{
+    padding: 0;
+    overflow-x: auto;
+  
+  }
+  
+  .testing:nth-child(odd){
+    background-color: darkgrey;
+    color: #000;
+  }
